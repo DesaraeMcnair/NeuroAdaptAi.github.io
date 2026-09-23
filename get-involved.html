@@ -7,398 +7,625 @@
 
     <title>Get Involved | Neuro Adapt AI</title>
 
-    <!-- Connects this page to your existing stylesheet -->
+    <!-- Your shared Neuro Adapt AI stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         NAVIGATION
-    ========================== -->
-    <header class="site-header">
-        <nav class="navbar">
+<!-- =========================
+     NAVIGATION
+========================= -->
 
-            <a href="index.html" class="logo">
-                Neuro Adapt AI
+<header class="site-header">
+
+    <div class="container navbar">
+
+        <a href="index.html" class="logo">
+            <img
+                src="images/logo.jpg"
+                alt="Neuro Adapt AI logo"
+            >
+            <span>Neuro Adapt AI</span>
+        </a>
+
+        <button
+            class="menu-button"
+            onclick="toggleMenu()"
+            aria-label="Open navigation menu"
+        >
+            ☰
+        </button>
+
+        <nav id="main-nav">
+
+            <a href="index.html">
+                Home
             </a>
 
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="index.html#about">About</a>
-                <a href="index.html#research">Research</a>
-                <a href="get-involved.html" class="active">Get Involved</a>
-            </div>
+            <a href="founder-story.html">
+                Founder Story
+            </a>
+
+            <a href="research.html">
+                Research
+            </a>
+
+            <a href="volume1.html">
+                Volume I
+            </a>
+
+            <a href="getinvolved.html" class="active">
+                Get Involved
+            </a>
 
         </nav>
-    </header>
+
+    </div>
+
+</header>
 
 
-    <!-- =========================
-         HERO SECTION
-    ========================== -->
-    <main>
+<!-- =========================
+     HERO
+========================= -->
 
-        <section class="hero-section">
-            <div class="hero-content">
+<main>
 
-                <p class="eyebrow">BUILD WITH US</p>
+<section class="hero">
 
-                <h1>
-                    Help Shape the Future of
-                    <span>Adaptive Intelligence.</span>
-                </h1>
+    <div class="container hero-content">
 
-                <p class="hero-text">
-                    Neuro Adapt AI is developing a new approach to technology:
-                    systems designed to learn from the individual and adapt to
-                    their abilities, behaviors, communication, and changing needs.
-                </p>
+        <p class="eyebrow">
+            GET INVOLVED
+        </p>
 
-                <p class="hero-text">
-                    We are building a community of researchers, clinicians,
-                    educators, technologists, organizations, and supporters
-                    who believe technology should adapt to people—not the
-                    other way around.
-                </p>
+        <h1>
+            Help Shape the Future of
+            <span>Adaptive Intelligence.</span>
+        </h1>
 
-            </div>
-        </section>
+        <p class="hero-text">
+            Neuro Adapt AI is exploring a new approach to technology:
+            systems designed to learn the individual and adapt to their
+            abilities, behaviors, communication, and changing needs.
+        </p>
 
+        <p class="hero-text">
+            We are building a community of researchers, clinicians,
+            educators, technologists, organizations, and supporters
+            who believe technology should adapt to people—not the
+            other way around.
+        </p>
 
-        <!-- =========================
-             GET INVOLVED CARDS
-        ========================== -->
-        <section class="involvement-section">
+        <div class="button-group">
 
-            <div class="section-heading">
-                <p class="eyebrow">GET INVOLVED</p>
+            <a
+                href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                class="button primary"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Connect With Neuro Adapt AI
+            </a>
 
-                <h2>
-                    There Is More Than One Way to
-                    <span>Be Part of the Vision.</span>
-                </h2>
+        </div>
 
-                <p>
-                    Whether you bring expertise, research experience,
-                    resources, funding, or simply a belief in the mission,
-                    there is a place for you in the Neuro Adapt AI journey.
-                </p>
-            </div>
+    </div>
+
+</section>
 
 
-            <div class="involvement-grid">
+<!-- =========================
+     INVOLVEMENT OPTIONS
+========================= -->
 
-                <!-- =========================
-                     COLLABORATOR
-                ========================== -->
-                <article class="involvement-card">
+<section class="involvement-section">
 
-                    <div class="card-icon">✦</div>
+    <div class="container">
 
-                    <h3>Become a Collaborator</h3>
+        <div class="section-heading">
 
-                    <p>
-                        We are seeking individuals and organizations who can
-                        contribute expertise, perspective, research knowledge,
-                        clinical experience, technology skills, and lived
-                        experience.
-                    </p>
+            <p class="eyebrow">
+                BUILD WITH US
+            </p>
 
-                    <p>
-                        Potential collaborators may include clinicians,
-                        researchers, educators, therapists, technologists,
-                        universities, schools, and organizations serving
-                        individuals with diverse needs.
-                    </p>
+            <h2>
+                There Is More Than One Way
+                <span>to Be Part of the Vision.</span>
+            </h2>
 
-                    <a href="#contact" class="card-button">
-                        Explore Collaboration
-                    </a>
+            <p>
+                Whether you bring expertise, research experience,
+                resources, funding, or simply a belief in the mission,
+                there is a place for you in the Neuro Adapt AI journey.
+            </p>
 
-                </article>
+        </div>
 
 
-                <!-- =========================
-                     RESEARCH PARTNERSHIP
-                ========================== -->
-                <article class="involvement-card">
-
-                    <div class="card-icon">⌁</div>
-
-                    <h3>Research Partnership</h3>
-
-                    <p>
-                        Neuro Adapt AI is exploring research partnerships to
-                        investigate how adaptive artificial intelligence can
-                        personalize technology based on individual abilities,
-                        behaviors, communication patterns, and needs.
-                    </p>
-
-                    <p>
-                        We welcome conversations with universities, research
-                        teams, healthcare professionals, rehabilitation
-                        specialists, educators, and other subject-matter experts.
-                    </p>
-
-                    <a href="#contact" class="card-button">
-                        Discuss Research
-                    </a>
-
-                </article>
+        <div class="involvement-grid">
 
 
-                <!-- =========================
-                     FUNDING
-                ========================== -->
-                <article class="involvement-card">
+            <!-- =========================
+                 COLLABORATOR
+            ========================== -->
 
-                    <div class="card-icon">◇</div>
+            <article class="involvement-card">
 
-                    <h3>Funding Opportunities</h3>
+                <div class="card-icon">
+                    ✦
+                </div>
 
-                    <p>
-                        Advancing adaptive intelligence will require research,
-                        technology development, collaboration, and resources.
-                    </p>
-
-                    <p>
-                        We are interested in exploring appropriate opportunities
-                        involving grants, research funding, sponsorships,
-                        strategic partnerships, and other forms of support
-                        aligned with the Neuro Adapt AI mission.
-                    </p>
-
-                    <a href="#contact" class="card-button">
-                        Discuss Funding
-                    </a>
-
-                </article>
-
-
-                <!-- =========================
-                     SUPPORT THE MISSION
-                ========================== -->
-                <article class="involvement-card">
-
-                    <div class="card-icon">♡</div>
-
-                    <h3>Support the Mission</h3>
-
-                    <p>
-                        The Neuro Adapt AI vision begins with a simple belief:
-                        technology should be designed to understand and adapt
-                        to the people who use it.
-                    </p>
-
-                    <p>
-                        You can support the mission by sharing the vision,
-                        connecting us with researchers and organizations,
-                        participating in conversations, or helping us reach
-                        communities that could benefit from this work.
-                    </p>
-
-                    <a href="#contact" class="card-button">
-                        Support the Vision
-                    </a>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             WHY COLLABORATE
-        ========================== -->
-        <section class="mission-section">
-
-            <div class="mission-content">
-
-                <p class="eyebrow">WHY COLLABORATE?</p>
-
-                <h2>
-                    This Vision Cannot Be Built
-                    <span>Alone.</span>
-                </h2>
+                <h3>
+                    Become a Collaborator
+                </h3>
 
                 <p>
-                    Neuro Adapt AI is intentionally being developed as a
-                    multidisciplinary vision. Creating technology that
-                    meaningfully adapts to people requires more than artificial
-                    intelligence alone.
+                    Neuro Adapt AI is seeking individuals and organizations
+                    who can contribute expertise, perspective, research
+                    knowledge, clinical experience, technology skills,
+                    and lived experience.
                 </p>
 
                 <p>
-                    It requires researchers who can ask the right questions,
-                    clinicians who understand individual needs, educators who
-                    understand learning environments, technologists who can
-                    build responsibly, and communities whose experiences help
-                    shape the technology.
+                    Potential collaborators may include clinicians,
+                    researchers, educators, therapists, technologists,
+                    universities, schools, healthcare organizations,
+                    and professionals working with individuals with
+                    diverse needs.
                 </p>
-
-                <p>
-                    Our goal is to bring these perspectives together to explore
-                    what adaptive intelligence could become.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             AREAS OF INTEREST
-        ========================== -->
-        <section class="areas-section">
-
-            <div class="section-heading">
-
-                <p class="eyebrow">AREAS OF INTEREST</p>
-
-                <h2>
-                    Who We Hope to
-                    <span>Connect With</span>
-                </h2>
-
-            </div>
-
-
-            <div class="areas-grid">
-
-                <div class="area-item">
-                    <h3>Research</h3>
-                    <p>
-                        AI, machine learning, HCI, neuroscience, psychology,
-                        education, rehabilitation, and related research.
-                    </p>
-                </div>
-
-                <div class="area-item">
-                    <h3>Clinical</h3>
-                    <p>
-                        Physicians, therapists, psychologists, speech-language
-                        professionals, rehabilitation specialists, and other
-                        healthcare professionals.
-                    </p>
-                </div>
-
-                <div class="area-item">
-                    <h3>Education</h3>
-                    <p>
-                        Educators, special education professionals, schools,
-                        universities, and learning organizations.
-                    </p>
-                </div>
-
-                <div class="area-item">
-                    <h3>Technology</h3>
-                    <p>
-                        AI/ML engineers, software developers, data scientists,
-                        UX/HCI professionals, and assistive technology experts.
-                    </p>
-                </div>
-
-                <div class="area-item">
-                    <h3>Organizations</h3>
-                    <p>
-                        Healthcare systems, therapy organizations, nonprofits,
-                        community organizations, and mission-aligned companies.
-                    </p>
-                </div>
-
-                <div class="area-item">
-                    <h3>Community</h3>
-                    <p>
-                        Families, advocates, individuals with lived experience,
-                        and people who want to help shape more adaptive technology.
-                    </p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT SECTION
-        ========================== -->
-        <section class="contact-section" id="contact">
-
-            <div class="contact-content">
-
-                <p class="eyebrow">LET'S CONNECT</p>
-
-                <h2>
-                    Have an Idea?
-                    <span>Let's Talk.</span>
-                </h2>
-
-                <p>
-                    If you are interested in collaborating, conducting research,
-                    exploring funding opportunities, or supporting the Neuro Adapt
-                    AI mission, we would like to hear from you.
-                </p>
-
-                <!--
-                    Replace the email address below with your official
-                    Neuro Adapt AI email address when you create one.
-                -->
 
                 <a
-                    href="mailto:hello@neuroadaptai.com"
-                    class="primary-button">
-                    Contact Neuro Adapt AI
+                    href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                    class="button primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Become a Collaborator
                 </a>
 
-            </div>
-
-        </section>
-
-    </main>
+            </article>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
-    <footer class="site-footer">
+            <!-- =========================
+                 RESEARCH PARTNERSHIP
+            ========================== -->
 
-        <div class="footer-content">
+            <article class="involvement-card">
 
-            <div>
-                <h3>Neuro Adapt AI</h3>
+                <div class="card-icon">
+                    ⌁
+                </div>
+
+                <h3>
+                    Research Partnership
+                </h3>
 
                 <p>
-                    Building technology that learns the individual
-                    and adapts to the person.
+                    Neuro Adapt AI is exploring research partnerships
+                    to investigate how adaptive artificial intelligence
+                    can personalize technology based on individual
+                    abilities, behaviors, communication patterns,
+                    and changing needs.
                 </p>
+
+                <p>
+                    We welcome conversations with universities,
+                    research teams, healthcare professionals,
+                    rehabilitation specialists, educators, and
+                    other subject-matter experts.
+                </p>
+
+                <a
+                    href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                    class="button primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Explore Research
+                </a>
+
+            </article>
+
+
+            <!-- =========================
+                 FUNDING
+            ========================== -->
+
+            <article class="involvement-card">
+
+                <div class="card-icon">
+                    ◇
+                </div>
+
+                <h3>
+                    Funding Opportunities
+                </h3>
+
+                <p>
+                    Advancing adaptive intelligence will require
+                    research, technology development, collaboration,
+                    and resources.
+                </p>
+
+                <p>
+                    We are interested in connecting with individuals
+                    and organizations interested in grants, research
+                    funding, sponsorships, strategic partnerships,
+                    and other appropriate opportunities aligned with
+                    the Neuro Adapt AI vision.
+                </p>
+
+                <a
+                    href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                    class="button primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Funding Interest
+                </a>
+
+            </article>
+
+
+            <!-- =========================
+                 SUPPORT THE MISSION
+            ========================== -->
+
+            <article class="involvement-card">
+
+                <div class="card-icon">
+                    ♡
+                </div>
+
+                <h3>
+                    Support the Mission
+                </h3>
+
+                <p>
+                    The Neuro Adapt AI vision begins with a simple belief:
+                    technology should be designed to understand and adapt
+                    to the people who use it.
+                </p>
+
+                <p>
+                    You can support the mission by sharing the vision,
+                    connecting us with researchers and organizations,
+                    participating in conversations, or helping us reach
+                    communities that could benefit from this work.
+                </p>
+
+                <a
+                    href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                    class="button primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Support the Mission
+                </a>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     WHY COLLABORATE
+========================= -->
+
+<section class="mission-section">
+
+    <div class="container mission-content">
+
+        <p class="eyebrow">
+            WHY COLLABORATE?
+        </p>
+
+        <h2>
+            This Vision Cannot Be Built
+            <span>Alone.</span>
+        </h2>
+
+        <p>
+            Neuro Adapt AI is intentionally being developed as a
+            multidisciplinary vision. Creating technology that
+            meaningfully adapts to people requires more than
+            artificial intelligence alone.
+        </p>
+
+        <p>
+            It requires researchers who can ask the right questions,
+            clinicians who understand individual needs, educators
+            who understand learning environments, technologists
+            who can build responsibly, and communities whose
+            experiences can help shape the technology.
+        </p>
+
+        <p>
+            Our goal is to bring these perspectives together to
+            explore what adaptive intelligence could become.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     AREAS OF INTEREST
+========================= -->
+
+<section class="areas-section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                AREAS OF INTEREST
+            </p>
+
+            <h2>
+                Who We Hope to
+                <span>Connect With</span>
+            </h2>
+
+        </div>
+
+
+        <div class="areas-grid">
+
+
+            <div class="area-item">
+
+                <h3>
+                    Research
+                </h3>
+
+                <p>
+                    AI, machine learning, HCI, neuroscience,
+                    psychology, education, rehabilitation,
+                    and related research.
+                </p>
+
             </div>
 
-            <div class="footer-links">
 
-                <a href="index.html">Home</a>
-                <a href="index.html#research">Research</a>
-                <a href="get-involved.html">Get Involved</a>
-                <a href="#contact">Contact</a>
+            <div class="area-item">
+
+                <h3>
+                    Clinical
+                </h3>
+
+                <p>
+                    Physicians, therapists, psychologists,
+                    speech-language professionals, rehabilitation
+                    specialists, and other healthcare professionals.
+                </p>
+
+            </div>
+
+
+            <div class="area-item">
+
+                <h3>
+                    Education
+                </h3>
+
+                <p>
+                    Educators, special education professionals,
+                    schools, universities, and learning organizations.
+                </p>
+
+            </div>
+
+
+            <div class="area-item">
+
+                <h3>
+                    Technology
+                </h3>
+
+                <p>
+                    AI/ML engineers, software developers,
+                    data scientists, UX/HCI professionals,
+                    and assistive technology experts.
+                </p>
+
+            </div>
+
+
+            <div class="area-item">
+
+                <h3>
+                    Organizations
+                </h3>
+
+                <p>
+                    Healthcare systems, therapy organizations,
+                    nonprofits, community organizations,
+                    and mission-aligned companies.
+                </p>
+
+            </div>
+
+
+            <div class="area-item">
+
+                <h3>
+                    Community
+                </h3>
+
+                <p>
+                    Families, advocates, individuals with lived
+                    experience, and people who want to help shape
+                    more adaptive technology.
+                </p>
 
             </div>
 
         </div>
 
-        <div class="footer-bottom">
+    </div>
+
+</section>
+
+
+```html
+<!-- =========================
+     INTEREST FORM / CONTACT
+========================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container contact-content">
+
+        <p class="eyebrow">
+            CONNECT WITH US
+        </p>
+
+        <h2>
+            Have an Idea?
+            <span>Let's Talk.</span>
+        </h2>
+
+        <p>
+            Are you interested in collaborating, exploring research,
+            discussing funding opportunities, contributing expertise,
+            or supporting the Neuro Adapt AI mission?
+        </p>
+
+        <p>
+            Complete our interest form or contact us directly.
+            We would love to learn more about you, your organization,
+            and how you may be able to contribute to the vision.
+        </p>
+
+        <div class="button-group">
+
+            <!-- Microsoft Forms -->
+            <a
+                href="https://forms.cloud.microsoft/r/7sJfTdnc1r"
+                class="button primary"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Neuro Adapt AI Interest Form
+            </a>
+
+            <!-- Email -->
+            <a
+                href="mailto:Neuroadaptai@outlook.com"
+                class="button secondary"
+            >
+                Email Neuro Adapt AI
+            </a>
+
+        </div>
+
+        <p class="contact-email">
+            <strong>Email:</strong>
+            <a href="mailto:Neuroadaptai@outlook.com">
+                Neuroadaptai@outlook.com
+            </a>
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer class="site-footer">
+
+    <div class="container footer-content">
+
+        <div>
+
+            <h3>
+                Neuro Adapt AI
+            </h3>
 
             <p>
-                © 2026 Neuro Adapt AI. All rights reserved.
-            </p>
-
-            <p>
-                Research & Development
+                Building technology that learns the individual
+                and adapts to the person.
             </p>
 
         </div>
 
-    </footer>
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="founder-story.html">
+                Founder Story
+            </a>
+
+            <a href="research.html">
+                Research
+            </a>
+
+            <a href="volume1.html">
+                Volume I
+            </a>
+
+            <a href="getinvolved.html">
+                Get Involved
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <p>
+            © 2026 Neuro Adapt AI. All rights reserved.
+        </p>
+
+        <p>
+            Research &amp; Development
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================
+     MOBILE MENU SCRIPT
+========================= -->
+
+<script>
+
+function toggleMenu() {
+
+    const nav = document.getElementById("main-nav");
+
+    nav.classList.toggle("open");
+
+}
+
+</script>
+
+</body>
+</html>
+```
+
 
 </body>
 </html>
